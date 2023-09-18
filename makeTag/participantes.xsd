@@ -1,0 +1,13 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://soriana.com/pi/IF_0590_Participantes" targetNamespace="http://soriana.com/pi/IF_0590_Participantes">
+   <xsd:complexType name="DT_Participante">
+      <xsd:sequence>
+         <xsd:element name="payeeId" type="xsd:string" />
+         <xsd:element name="effectiveStartDate" type="xsd:date" />
+         <xsd:element name="effectiveEndDate" type="xsd:date" minOccurs="0" />
+         <xsd:element name="prefix" type="xsd:string" minOccurs="0" />
+         <xsd:element name="firstName" type="xsd:string" minOccurs="0" />
+         <xsd:element name="middleName" type="xsd:string" minOccurs="0" />
+      </xsd:sequence>
+   </xsd:complexType>
+   
+</xsd:schema>

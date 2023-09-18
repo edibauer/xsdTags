@@ -1,0 +1,1 @@
+print("im ready to conquer the world")

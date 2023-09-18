@@ -1,0 +1,494 @@
+[
+    {
+        "Nivel S": 1,
+        "Tipo S": "Raiz",
+        "Nombre campo S": "participantes",
+        "Ocurrencia S": "1…1"
+    },
+    {
+        "Nivel S": 2,
+        "Tipo S": "Estructura",
+        "Nombre campo S": "row",
+        "Ocurrencia S": "1…Unbound"
+    },
+    {
+        "Nivel S": 3,
+        "Tipo S": "Campo",
+        "Nombre campo S": "payeeId",
+        "Tipo Dato S": "character",
+        "Longitud S": 40,
+        "Ocurrencia S": "1…1",
+        "Ejemplo S": 2365897451
+    },
+    {
+        "Nivel S": 3,
+        "Tipo S": "Campo",
+        "Nombre campo S": "effectiveStartDate",
+        "Tipo Dato S": "Date",
+        "Longitud S": 10,
+        "Ocurrencia S": "1…1",
+        "Formato S": "MM/dd/yyyy",
+        "Ejemplo S": 44927
+    },
+    {
+        "Nivel S": 3,
+        "Tipo S": "Campo",
+        "Nombre campo S": "effectiveEndDate",
+        "Tipo Dato S": "Date",
+        "Longitud S": 10,
+        "Ocurrencia S": "0…1",
+        "Formato S": "MM/dd/yyyy",
+        "Ejemplo S": 109575
+    },
+    {
+        "Nivel S": 3,
+        "Tipo S": "Campo",
+        "Nombre campo S": "prefix",
+        "Tipo Dato S": "character",
+        "Longitud S": 20,
+        "Ocurrencia S": "0…1"
+    },
+    {
+        "Nivel S": 3,
+        "Tipo S": "Campo",
+        "Nombre campo S": "firstName",
+        "Tipo Dato S": "character",
+        "Longitud S": 90,
+        "Ocurrencia S": "0…1",
+        "Ejemplo S": "Juan"
+    },
+    {
+        "Nivel S": 3,
+        "Tipo S": "Campo",
+        "Nombre campo S": "middleName",
+        "Tipo Dato S": "character",
+        "Longitud S": 90,
+        "Ocurrencia S": "0…1",
+        "Ejemplo S": "Daniel"
+    },
+    {
+        "Nivel S": 3,
+        "Tipo S": "Campo",
+        "Nombre campo S": "lastName",
+        "Tipo Dato S": "character",
+        "Longitud S": 90,
+        "Ocurrencia S": "1…1",
+        "Ejemplo S": "Rodriguez Molina"
+    },
+    {
+        "Nivel S": 3,
+        "Tipo S": "Campo",
+        "Nombre campo S": "suffix",
+        "Tipo Dato S": "character",
+        "Longitud S": 20,
+        "Ocurrencia S": "0…1"
+    },
+    {
+        "Nivel S": 3,
+        "Tipo S": "Campo",
+        "Nombre campo S": "taxId",
+        "Tipo Dato S": "character",
+        "Longitud S": 15,
+        "Ocurrencia S": "0…1"
+    },
+    {
+        "Nivel S": 3,
+        "Tipo S": "Campo",
+        "Nombre campo S": "salary",
+        "Tipo Dato S": "number",
+        "Longitud S": 25,
+        "Ocurrencia S": "0…1"
+    },
+    {
+        "Nivel S": 3,
+        "Tipo S": "Campo",
+        "Nombre campo S": "unitTypeForSalary",
+        "Tipo Dato S": "character",
+        "Longitud S": 40,
+        "Ocurrencia S": "0…1"
+    },
+    {
+        "Nivel S": 3,
+        "Tipo S": "Campo",
+        "Nombre campo S": "hireDate",
+        "Tipo Dato S": "Date",
+        "Longitud S": 10,
+        "Ocurrencia S": "0…1",
+        "Formato S": "MM/dd/yyyy",
+        "Ejemplo S": "06/20/2023"
+    },
+    {
+        "Nivel S": 3,
+        "Tipo S": "Campo",
+        "Nombre campo S": "terminationDate",
+        "Tipo Dato S": "Date",
+        "Longitud S": 10,
+        "Ocurrencia S": "0…1",
+        "Formato S": "MM/dd/yyyy",
+        "Ejemplo S": "12/31/2023"
+    },
+    {
+        "Nivel S": 3,
+        "Tipo S": "Campo",
+        "Nombre campo S": "businessUnitName",
+        "Tipo Dato S": "character",
+        "Longitud S": 255,
+        "Ocurrencia S": "0…1",
+        "Ejemplo S": "BU_PANIFICADORA"
+    },
+    {
+        "Nivel S": 3,
+        "Tipo S": "Campo",
+        "Nombre campo S": "description",
+        "Tipo Dato S": "character",
+        "Longitud S": 255,
+        "Ocurrencia S": "0…1"
+    },
+    {
+        "Nivel S": 3,
+        "Tipo S": "Campo",
+        "Nombre campo S": "gnAtrChr1",
+        "Tipo Dato S": "character",
+        "Longitud S": 255,
+        "Ocurrencia S": "0…1",
+        "Ejemplo S": "GUMA901203SV9"
+    },
+    {
+        "Nivel S": 3,
+        "Tipo S": "Campo",
+        "Nombre campo S": "gnAtrChr2",
+        "Tipo Dato S": "character",
+        "Longitud S": 255,
+        "Ocurrencia S": "0…1",
+        "Ejemplo S": "GUMA901203HDFDLR01"
+    },
+    {
+        "Nivel S": 3,
+        "Tipo S": "Campo",
+        "Nombre campo S": "gnAtrChr3",
+        "Tipo Dato S": "character",
+        "Longitud S": 255,
+        "Ocurrencia S": "0…1"
+    },
+    {
+        "Nivel S": 3,
+        "Tipo S": "Campo",
+        "Nombre campo S": "gnAtrChr4",
+        "Tipo Dato S": "character",
+        "Longitud S": 255,
+        "Ocurrencia S": "0…1"
+    },
+    {
+        "Nivel S": 3,
+        "Tipo S": "Campo",
+        "Nombre campo S": "gnAtrChr5",
+        "Tipo Dato S": "character",
+        "Longitud S": 255,
+        "Ocurrencia S": "0…1"
+    },
+    {
+        "Nivel S": 3,
+        "Tipo S": "Campo",
+        "Nombre campo S": "gnAtrChr6",
+        "Tipo Dato S": "character",
+        "Longitud S": 255,
+        "Ocurrencia S": "0…1"
+    },
+    {
+        "Nivel S": 3,
+        "Tipo S": "Campo",
+        "Nombre campo S": "gnAtrChr7",
+        "Tipo Dato S": "character",
+        "Longitud S": 255,
+        "Ocurrencia S": "0…1"
+    },
+    {
+        "Nivel S": 3,
+        "Tipo S": "Campo",
+        "Nombre campo S": "gnAtrChr8",
+        "Tipo Dato S": "character",
+        "Longitud S": 255,
+        "Ocurrencia S": "0…1"
+    },
+    {
+        "Nivel S": 3,
+        "Tipo S": "Campo",
+        "Nombre campo S": "gnAtrChr9",
+        "Tipo Dato S": "character",
+        "Longitud S": 255,
+        "Ocurrencia S": "0…1"
+    },
+    {
+        "Nivel S": 3,
+        "Tipo S": "Campo",
+        "Nombre campo S": "gnAtrChr10",
+        "Tipo Dato S": "character",
+        "Longitud S": 255,
+        "Ocurrencia S": "0…1"
+    },
+    {
+        "Nivel S": 3,
+        "Tipo S": "Campo",
+        "Nombre campo S": "gnAtrChr11",
+        "Tipo Dato S": "character",
+        "Longitud S": 255,
+        "Ocurrencia S": "0…1"
+    },
+    {
+        "Nivel S": 3,
+        "Tipo S": "Campo",
+        "Nombre campo S": "gnAtrChr12",
+        "Tipo Dato S": "character",
+        "Longitud S": 255,
+        "Ocurrencia S": "0…1"
+    },
+    {
+        "Nivel S": 3,
+        "Tipo S": "Campo",
+        "Nombre campo S": "gnAtrChr13",
+        "Tipo Dato S": "character",
+        "Longitud S": 255,
+        "Ocurrencia S": "0…1"
+    },
+    {
+        "Nivel S": 3,
+        "Tipo S": "Campo",
+        "Nombre campo S": "gnAtrChr14",
+        "Tipo Dato S": "character",
+        "Longitud S": 255,
+        "Ocurrencia S": "0…1"
+    },
+    {
+        "Nivel S": 3,
+        "Tipo S": "Campo",
+        "Nombre campo S": "gnAtrChr15",
+        "Tipo Dato S": "character",
+        "Longitud S": 255,
+        "Ocurrencia S": "0…1"
+    },
+    {
+        "Nivel S": 3,
+        "Tipo S": "Campo",
+        "Nombre campo S": "gnAtrChr16",
+        "Tipo Dato S": "character",
+        "Longitud S": 255,
+        "Ocurrencia S": "0…1"
+    },
+    {
+        "Nivel S": 3,
+        "Tipo S": "Campo",
+        "Nombre campo S": "gnNum1",
+        "Tipo Dato S": "number",
+        "Longitud S": 25,
+        "Ocurrencia S": "0…1"
+    },
+    {
+        "Nivel S": 3,
+        "Tipo S": "Campo",
+        "Nombre campo S": "unTpGnNum1",
+        "Tipo Dato S": "character",
+        "Longitud S": 40,
+        "Ocurrencia S": "0…1"
+    },
+    {
+        "Nivel S": 3,
+        "Tipo S": "Campo",
+        "Nombre campo S": "gnNum2",
+        "Tipo Dato S": "number",
+        "Longitud S": 25,
+        "Ocurrencia S": "0…1"
+    },
+    {
+        "Nivel S": 3,
+        "Tipo S": "Campo",
+        "Nombre campo S": "unTpGnNum2",
+        "Tipo Dato S": "character",
+        "Longitud S": 40,
+        "Ocurrencia S": "0…1"
+    },
+    {
+        "Nivel S": 3,
+        "Tipo S": "Campo",
+        "Nombre campo S": "gnNum3",
+        "Tipo Dato S": "number",
+        "Longitud S": 25,
+        "Ocurrencia S": "0…1"
+    },
+    {
+        "Nivel S": 3,
+        "Tipo S": "Campo",
+        "Nombre campo S": "unTpGnNum3",
+        "Tipo Dato S": "character",
+        "Longitud S": 40,
+        "Ocurrencia S": "0…1"
+    },
+    {
+        "Nivel S": 3,
+        "Tipo S": "Campo",
+        "Nombre campo S": "gnNum4",
+        "Tipo Dato S": "number",
+        "Longitud S": 25,
+        "Ocurrencia S": "0…1"
+    },
+    {
+        "Nivel S": 3,
+        "Tipo S": "Campo",
+        "Nombre campo S": "unTpGnNum4",
+        "Tipo Dato S": "character",
+        "Longitud S": 40,
+        "Ocurrencia S": "0…1"
+    },
+    {
+        "Nivel S": 3,
+        "Tipo S": "Campo",
+        "Nombre campo S": "gnNum5",
+        "Tipo Dato S": "number",
+        "Longitud S": 25,
+        "Ocurrencia S": "0…1"
+    },
+    {
+        "Nivel S": 3,
+        "Tipo S": "Campo",
+        "Nombre campo S": "unTpGnNum5",
+        "Tipo Dato S": "character",
+        "Longitud S": 40,
+        "Ocurrencia S": "0…1"
+    },
+    {
+        "Nivel S": 3,
+        "Tipo S": "Campo",
+        "Nombre campo S": "gnNum6",
+        "Tipo Dato S": "number",
+        "Longitud S": 25,
+        "Ocurrencia S": "0…1"
+    },
+    {
+        "Nivel S": 3,
+        "Tipo S": "Campo",
+        "Nombre campo S": "unTpGnNum6",
+        "Tipo Dato S": "character",
+        "Longitud S": 40,
+        "Ocurrencia S": "0…1"
+    },
+    {
+        "Nivel S": 3,
+        "Tipo S": "Campo",
+        "Nombre campo S": "gnDt1",
+        "Tipo Dato S": "Date",
+        "Longitud S": 10,
+        "Ocurrencia S": "0…1",
+        "Formato S": "MM/dd/yyyy",
+        "Ejemplo S": "06/13/2023"
+    },
+    {
+        "Nivel S": 3,
+        "Tipo S": "Campo",
+        "Nombre campo S": "gnDt2",
+        "Tipo Dato S": "Date",
+        "Longitud S": 10,
+        "Ocurrencia S": "0…1",
+        "Formato S": "MM/dd/yyyy"
+    },
+    {
+        "Nivel S": 3,
+        "Tipo S": "Campo",
+        "Nombre campo S": "gnDt3",
+        "Tipo Dato S": "Date",
+        "Longitud S": 10,
+        "Ocurrencia S": "0…1",
+        "Formato S": "MM/dd/yyyy"
+    },
+    {
+        "Nivel S": 3,
+        "Tipo S": "Campo",
+        "Nombre campo S": "gnDt4",
+        "Tipo Dato S": "Date",
+        "Longitud S": 10,
+        "Ocurrencia S": "0…1",
+        "Formato S": "MM/dd/yyyy"
+    },
+    {
+        "Nivel S": 3,
+        "Tipo S": "Campo",
+        "Nombre campo S": "gnDt5",
+        "Tipo Dato S": "Date",
+        "Longitud S": 10,
+        "Ocurrencia S": "0…1",
+        "Formato S": "MM/dd/yyyy"
+    },
+    {
+        "Nivel S": 3,
+        "Tipo S": "Campo",
+        "Nombre campo S": "gnDt6",
+        "Tipo Dato S": "Date",
+        "Longitud S": 10,
+        "Ocurrencia S": "0…1",
+        "Formato S": "MM/dd/yyyy"
+    },
+    {
+        "Nivel S": 3,
+        "Tipo S": "Campo",
+        "Nombre campo S": "gnBol1",
+        "Tipo Dato S": "number",
+        "Longitud S": 1,
+        "Ocurrencia S": "0…1"
+    },
+    {
+        "Nivel S": 3,
+        "Tipo S": "Campo",
+        "Nombre campo S": "gnBol2",
+        "Tipo Dato S": "number",
+        "Longitud S": 1,
+        "Ocurrencia S": "0…1"
+    },
+    {
+        "Nivel S": 3,
+        "Tipo S": "Campo",
+        "Nombre campo S": "gnBol3",
+        "Tipo Dato S": "number",
+        "Longitud S": 1,
+        "Ocurrencia S": "0…1"
+    },
+    {
+        "Nivel S": 3,
+        "Tipo S": "Campo",
+        "Nombre campo S": "gnBol4",
+        "Tipo Dato S": "number",
+        "Longitud S": 1,
+        "Ocurrencia S": "0…1"
+    },
+    {
+        "Nivel S": 3,
+        "Tipo S": "Campo",
+        "Nombre campo S": "gnBol5",
+        "Tipo Dato S": "number",
+        "Longitud S": 1,
+        "Ocurrencia S": "0…1"
+    },
+    {
+        "Nivel S": 3,
+        "Tipo S": "Campo",
+        "Nombre campo S": "gnBol6",
+        "Tipo Dato S": "number",
+        "Longitud S": 1,
+        "Ocurrencia S": "0…1"
+    },
+    {
+        "Nivel S": 3,
+        "Tipo S": "Campo",
+        "Nombre campo S": "userId",
+        "Tipo Dato S": "character",
+        "Longitud S": 255,
+        "Ocurrencia S": "0…1",
+        "Ejemplo S": 2365897451
+    },
+    {
+        "Nivel S": 3,
+        "Tipo S": "Campo",
+        "Nombre campo S": "participantEmail",
+        "Tipo Dato S": "character",
+        "Longitud S": 50,
+        "Ocurrencia S": "0…1",
+        "Ejemplo S": "Daniel@soriana.com"
+    }
+]

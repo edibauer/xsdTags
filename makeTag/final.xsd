@@ -1,0 +1,65 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns="http://soriana.com/pi/IF_0590_Participantes"
+    targetNamespace="http://soriana.com/pi/IF_0590_Participantes">
+    <xsd:complexType name="DT_Participante">
+        <xsd:sequence>
+            <xsd:element name="payeeId" type="xsd:string" />
+            <xsd:element name="effectiveStartDate" type="xsd:date" />
+            <xsd:element name="effectiveEndDate" type="xsd:date" minOccurs="0" />
+            <xsd:element name="prefix" type="xsd:string" minOccurs="0" />
+            <xsd:element name="firstName" type="xsd:string" minOccurs="0" />
+            <xsd:element name="middleName" type="xsd:string" minOccurs="0" />
+            <xsd:element name="lastName" type="xsd:string" />
+            <xsd:element name="suffix" type="xsd:string" minOccurs="0" />
+            <xsd:element name="taxId" type="xsd:string" minOccurs="0" />
+            <xsd:element name="salary" type="xsd:integer" minOccurs="0" />
+            <xsd:element name="unitTypeForSalary" type="xsd:string" minOccurs="0" />
+            <xsd:element name="hireDate" type="xsd:date" minOccurs="0" />
+            <xsd:element name="terminationDate" type="xsd:date" minOccurs="0" />
+            <xsd:element name="businessUnitName" type="xsd:string" minOccurs="0" />
+            <xsd:element name="description" type="xsd:string" minOccurs="0" />
+            <xsd:element name="gnAtrChr1" type="xsd:string" minOccurs="0" />
+            <xsd:element name="gnAtrChr2" type="xsd:string" minOccurs="0" />
+            <xsd:element name="gnAtrChr3" type="xsd:string" minOccurs="0" />
+            <xsd:element name="gnAtrChr4" type="xsd:string" minOccurs="0" />
+            <xsd:element name="gnAtrChr5" type="xsd:string" minOccurs="0" />
+            <xsd:element name="gnAtrChr6" type="xsd:string" minOccurs="0" />
+            <xsd:element name="gnAtrChr7" type="xsd:string" minOccurs="0" />
+            <xsd:element name="gnAtrChr8" type="xsd:string" minOccurs="0" />
+            <xsd:element name="gnAtrChr9" type="xsd:string" minOccurs="0" />
+            <xsd:element name="gnAtrChr10" type="xsd:string" minOccurs="0" />
+            <xsd:element name="gnAtrChr11" type="xsd:string" minOccurs="0" />
+            <xsd:element name="gnAtrChr12" type="xsd:string" minOccurs="0" />
+            <xsd:element name="gnAtrChr13" type="xsd:string" minOccurs="0" />
+            <xsd:element name="gnAtrChr14" type="xsd:string" minOccurs="0" />
+            <xsd:element name="gnAtrChr15" type="xsd:string" minOccurs="0" />
+            <xsd:element name="gnAtrChr16" type="xsd:string" minOccurs="0" />
+            <xsd:element name="gnNum1" type="xsd:integer" minOccurs="0" />
+            <xsd:element name="unTpGnNum1" type="xsd:string" minOccurs="0" />
+            <xsd:element name="gnNum2" type="xsd:integer" minOccurs="0" />
+            <xsd:element name="unTpGnNum2" type="xsd:string" minOccurs="0" />
+            <xsd:element name="gnNum3" type="xsd:integer" minOccurs="0" />
+            <xsd:element name="unTpGnNum3" type="xsd:string" minOccurs="0" />
+            <xsd:element name="gnNum4" type="xsd:integer" minOccurs="0" />
+            <xsd:element name="unTpGnNum4" type="xsd:string" minOccurs="0" />
+            <xsd:element name="gnNum5" type="xsd:integer" minOccurs="0" />
+            <xsd:element name="unTpGnNum5" type="xsd:string" minOccurs="0" />
+            <xsd:element name="gnNum6" type="xsd:integer" minOccurs="0" />
+            <xsd:element name="unTpGnNum6" type="xsd:string" minOccurs="0" />
+            <xsd:element name="gnDt1" type="xsd:date" minOccurs="0" />
+            <xsd:element name="gnDt2" type="xsd:date" minOccurs="0" />
+            <xsd:element name="gnDt3" type="xsd:date" minOccurs="0" />
+            <xsd:element name="gnDt4" type="xsd:date" minOccurs="0" />
+            <xsd:element name="gnDt5" type="xsd:date" minOccurs="0" />
+            <xsd:element name="gnDt6" type="xsd:date" minOccurs="0" />
+            <xsd:element name="gnBol1" type="xsd:integer" minOccurs="0" />
+            <xsd:element name="gnBol2" type="xsd:integer" minOccurs="0" />
+            <xsd:element name="gnBol3" type="xsd:integer" minOccurs="0" />
+            <xsd:element name="gnBol4" type="xsd:integer" minOccurs="0" />
+            <xsd:element name="gnBol5" type="xsd:integer" minOccurs="0" />
+            <xsd:element name="gnBol6" type="xsd:integer" minOccurs="0" />
+            <xsd:element name="userId" type="xsd:string" minOccurs="0" />
+            <xsd:element name="participantEmail" type="xsd:string" minOccurs="0" />
+        </xsd:sequence>
+    </xsd:complexType>
+</xsd:schema>
